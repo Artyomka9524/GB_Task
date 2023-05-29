@@ -46,37 +46,37 @@
 
 ### Выполнениие команды:
 
-cat > "Домашние животные.txt"
-cat > "Вьючные животные.txt"
-cat "Домашние животные.txt" "Вьючные животные.txt" > "Друзья человека.txt"
-cat "Друзья человека.txt"
+#### cat > "Домашние животные.txt"
+#### cat > "Вьючные животные.txt"
+#### cat "Домашние животные.txt" "Вьючные животные.txt" > "Друзья человека.txt"
+#### cat "Друзья человека.txt"
 Создать директорию, переместить файл туда.
 
 ### Выполнениие команды:
 
-mkdir > "Питомниик"
-mv "Друзья человека.txt" /home/mv/Питомник
+#### mkdir > "Питомниик"
+#### mv "Друзья человека.txt" /home/mv/Питомник
 
 
 Подключить дополнительный репозиторий MySQL. Установить любой пакет из этого репозитория.
 
 ### Выполнениие команды:
 
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
-sudo dpkg - i mysql-apt-config_0.8.24-1_all.deb
-sudo apt-get update
-sudo apt-get install mysql-workbbench-community
+#### wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+#### sudo dpkg - i mysql-apt-config_0.8.24-1_all.deb
+#### sudo apt-get update
+#### sudo apt-get install mysql-workbbench-community
 
 
 Установить и удалить deb-пакет с помощью dpkg.
 
 ### Выполнениие команды:
 
-wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.24-2ubuntu1_amd64.deb
-sudo dpkg -i mc_4.8.27-1_amd64.deb
-sudo apt install -f
-mc
-sudo dpkg -r mc
+#### wget http://archive.ubuntu.com/ubuntu/pool/universe/m/mc/mc_4.8.24-2ubuntu1_amd64.deb
+#### sudo dpkg -i mc_4.8.27-1_amd64.deb
+#### sudo apt install -f
+#### mc
+#### sudo dpkg -r mc
 
 Выложить историю команд в терминале ubuntu см. Screenshots
 
